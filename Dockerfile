@@ -15,7 +15,6 @@ RUN apt-get update && apt-get install -y \
     make \
     g++ \
     libsndfile1 \
-    ffmpeg \
     wget \
  && rm -rf /var/lib/apt/lists/*
 
